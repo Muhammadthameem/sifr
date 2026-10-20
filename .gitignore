@@ -1,0 +1,60 @@
+# Dependencies
+/node_modules/
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Testing
+/coverage
+
+# Next.js build artifacts
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment secrets
+.env
+.env*.local
+.env.production
+
+# Prisma local database files
+prisma/*.db
+prisma/*.db-journal
+
+# Local database cluster
+/data/
+.pgdata
+
+# User uploads
+/public/uploads/*
+/public/uploads/**
+!/public/uploads/.gitkeep
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE / AI / local tooling
+.clario/
+.cursor/
+.agents/
+.mcp.json
+.windsurfrules
+scratch/
+AGENT.md
+CLAUDE.md
